@@ -7,8 +7,6 @@ using namespace std;
 typedef pair<double,int> Arc;
 typedef vector<vector<Arc> > Graf;
 
-//#define inf 1.0/0.0
-
 void llegeix_graf(int m, Graf &G) {
   for(int i=0; i<m; ++i) {
     int u;
